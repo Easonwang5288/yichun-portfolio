@@ -38,42 +38,38 @@
 					</section>
 				<!-- Two -->
 					<section id="two">
-						<h2>Recent Work</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-								<h3>Ultricies lacinia interdum</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
-								<h3>Nunc enim commodo aliquet</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
-								<h3>Risus ornare lacinia</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
-							</article>
-						</div>
-						<ul class="actions">
-							<li><a href="#" class="button">Full Portfolio</a></li>
-						</ul>
+    					<h2>最新學術戰力 (Featured Research)</h2>
+    					<div class="row">
+        					<article class="col-12 col-12-xsmall work-item">
+            					<h3 style="margin-bottom: 0.5em;">碩士論文：應用電腦視覺於非接觸式心率估測系統開發</h3>
+            					<p style="color: #a0a0a0; font-size: 0.9em; margin-bottom: 1em;"><strong>Focus:</strong> Computer Vision, Time-Series Deep Learning, Model Validation</p>
+            					<p>探討以電腦視覺技術取代傳統穿戴式設備，透過動態影像分析臉部膚色變化以進行即時生理訊號監測。此研究展現了處理連續影像數據與建立高穩定度預測模型的能力。</p>
+            					<ul>
+                					<li><strong>動態影像特徵擷取：</strong> 導入 MediaPipe Face Mesh 模型，精準定位臉部特徵點並動態擷取感興趣區域 (ROI)，結合多種色彩模型處理連續影像，有效過濾雜訊並提取關鍵特徵序列。</li>
+                					<li><strong>時間序列深度學習建模：</strong> 針對連續性的生理訊號數據，運用 <strong>門控循環單元 (GRU)</strong> 建立時間序列預測模型，精準捕捉心率變動趨勢。</li>
+                					<li><strong>模型穩定度與交叉驗證：</strong> 採用嚴謹的 <strong>留一受試者交叉驗證 (LOSO)</strong> 策略進行評估，確保系統具備高度的實用性與魯棒性 (Robustness)。</li>
+            					</ul>
+            					<blockquote style="border-left: solid 4px #49bf9d; padding-left: 1em; margin-left: 0;">
+                					💡 <strong>Tech-to-Industry (產學應用價值)：</strong><br />
+                					此研究所具備的「動態影像雜訊過濾」與「時間序列模型建置」能力，其底層邏輯可直接轉換並應用於智能製造中的自動光學檢測 (AOI) 優化、機台預測性維護及連續性良率數據分析。
+            					</blockquote>
+        					</article>
+
+        					<article class="col-12 col-12-xsmall work-item" style="margin-top: 2em;">
+            					<h3 style="margin-bottom: 0.5em;">國際研討會 (ICIEA 2026)：眼動儀量化指標於人工組裝認知負荷之評估</h3>
+            					<p style="color: #a0a0a0; font-size: 0.9em; margin-bottom: 1em;"><strong>Focus:</strong> Human Factors Engineering, Quantitative Data Analysis, Real-time Monitoring</p>
+            					<p>針對工業 4.0 趨勢下的人機協作環境，探討如何利用眼動追蹤技術量化作業員的認知負荷。此研究證實了視覺行為特徵在動態工序監控中的高敏感度與應用潛力。</p>
+            					<ul>
+                					<li><strong>嚴謹的變數控制與兩階段實驗設計：</strong> 針對組裝作業特性，第一階段預先排除「學習效應」的干擾建立基準線；第二階段導入 N-back 任務模擬多重認知負荷情境，確保數據精準度與效度。</li>
+                					<li><strong>多維度生理訊號與頻域分析：</strong> 跨維度整合主觀量測、心率變異度 (HRV) 與客觀眼動數據，並導入 <strong>傅立葉頻域分析 (Fourier Domain Analysis)</strong>，驗證眼動特徵在區分操作複雜度上的高度敏感性。</li>
+                					<li><strong>數據驅動的流程優化與即時監控：</strong> 透過量化指標有效辨識不同負荷與作業條件，證明眼動數據作為認知負荷偵測工具的可行性。</li>
+            					</ul>
+            					<blockquote style="border-left: solid 4px #49bf9d; padding-left: 1em; margin-left: 0;">
+                					💡 <strong>Tech-to-Industry (產學應用價值)：</strong><br />
+                					此分析架構可直接對接產線的即時工序監測系統，協助管理層預判作業員疲勞與失誤風險，進而優化標準作業流程 (SOP)、動態調整系統支援策略，實現防呆與生產效率的最大化。
+            					</blockquote>
+        					</article>
+    					</div>
 					</section>
 
 				<!-- Three -->
@@ -460,3 +456,4 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	</body>
 
 </html>
+
